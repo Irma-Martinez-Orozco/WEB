@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(83, 72, 76);
+}
+.contenedor-anuncio{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    color: rgb(220, 233, 37);
+    font-family: century;
+    font-size: 15px;
+}
+.letra{
+    color: rgb(236, 221, 229);
+    font-size: 20px;
+}
+.anuncio{
+    flex:0 0 calc(33.3% - 1rem);
+    border:1px solid #7b15ce;
+    background-color: rgba(124, 14, 47, 0.192);
+    margin-bottom: 2rem;
+}
+.contenido-anuncio{
+    padding: 2rem;
+}
+.contenido-anuncio h3, .contenido-anuncio p{
+    margin: 0;
+}
+.contenedor{
+    top: 210px;
+    width: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.texto{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    color: rgb(240, 110, 190);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: century;
+    font-size: 20px;
+    margin-top: -30px;
+
+}
+.titulo{
+    position: relative;
+    left: 10px;
+    transition: all .3s;
+    color: rgb(241, 161, 12);
+    font-family: century;
+    font-size: 60px;
+    margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+La arquitectura de un enfoque de construcción, se entiende como la
+fundación o base de técnicas y conceptos seleccionados de un universo de
+bases potenciales, que define las estructuras características de todas las
+construcciones diseñadas usando dicho enfoque.
+El método hace explícito los procedimientos, paso a paso, que deben ser
+seguidos en la aplicación de la arquitectura a los proyectos.
+El proceso permite que el método sea escalado de modo que pueda ser
+aplicado en gran escala a proyectos con muchas partes y actividades que
+interactúan entre sí.
+Las herramientas dan soporte a todos los aspectos de la empresa y,
+explícitamente, a las actividades de arquitectura, método y proceso.

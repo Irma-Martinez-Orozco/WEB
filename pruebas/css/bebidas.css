@@ -1,0 +1,112 @@
+    body{background-color: #0f0f0e;}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+  .contenedor{
+      top: 210px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .contenedor-imagen{
+    top: 50px;
+      width: 45%;
+      height: 300px;
+      margin: 10px;
+      border: 3px solid black;
+      overflow: hidden;
+      position: relative;
+  }
+  img{
+      width: 100%;
+      height: 100%;
+      transition: all .3s;
+  }
+  .contenedor-imagen:hover img{
+      filter: blur(1.5px);
+      transform: scale(1.5);
+      transition: all .3s;
+  }
+  .contenedor-imagen::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+   
+      top: 0;
+      left: 0;
+      transition: all .3s;
+  }
+  .contenedor-imagen:hover:before{
+      background: rgba(0, 0,0, .4);
+      z-index: 2;
+      transition: all .3s;
+  }
+  /*texto*/
+  .titulosup{
+    color: rgb(212, 45, 45);
+    font-family: century;
+    font-size: 80px;
+    position: relative;
+    left: 20%;
+  }
+  .texto{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      color: white;
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+.titulo,.parrafo{
+    margin: 10px;
+    padding: 5px;
+}
+.titulo,.ah{
+    margin: 1px;
+    padding: 5px;
+}
+.titulo{
+    position: relative;
+    left: 100%;
+    transition: all .3s;
+    color: rgb(228, 253, 0);
+    font-family: century;
+}
+.contenedor-imagen:hover .titulo{
+    left: 0;
+    animation-delay:  .3s;
+    transition: all .3s;
+}
+.parrafo{
+    position: relative;
+    right: 100%;
+    transition: all .3s;
+}
+.ah{
+    position: relative;
+    right: 100%;
+    transition: all .3s;
+}
+.contenedor-imagen:hover .parrafo{
+    right: 0;
+    animation-delay:  .3s;
+    transition: all .3s;
+}
+.contenedor-imagen:hover .ah{
+    right: 0;
+    animation-delay:  .3s;
+    transition: all .3s;
+}

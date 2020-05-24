@@ -1,0 +1,102 @@
+body {
+    margin:0;
+    padding:0;
+    border:0;
+}
+ 
+.image1 {
+    position:relative;
+    background: url("../imagenes/imagen1.webp") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 625px;
+     
+}
+ 
+.image2 {
+    position:relative;
+    background: url("../imagenes/reposado.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 700px; 
+}
+ 
+.image4 {
+    position:relative;
+    background: url("../imagenes/añejo.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 700px; 
+}
+.image5 {
+    position:relative;
+    background: url("../imagenes/pechuga.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 700px; 
+}
+.image6 {
+    position:relative;
+    background: url("../imagenes/joven.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 700px; 
+}
+ 
+
+h1 {
+    color: rgb(235, 16, 16);
+    font-size: 80px;
+    text-align:center;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 800px;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -400px;
+    opacity:0.8;
+}
+ 
+h2{
+    color: rgb(247, 148, 0);
+    font-size: 70px;
+    text-align:left;
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-left: -400px;
+    opacity:0.8;
+    font-family:'Times New Roman', Times, serif;
+}
+ 
+.content {
+    
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: absolute;
+    background: #585247;
+    z-index:2;
+ 
+}
